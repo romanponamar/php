@@ -53,21 +53,20 @@
 
 	?>
 	
-	<pre>
 	<?php
-	echo 'Автор: '; echo author[0];
+
+	echo '<pre>';
+	echo '        Автор: '; echo author[0];
+	echo '</pre>';
+	echo '<pre>';
+	echo '        Произведение: '; echo author[1];
+	echo '</pre>';
+	echo '<pre>';
+	echo '        Год издания '; echo author[2];
+	echo '</pre>';
+	
 	?>
-	</pre>
-	<pre>
-	<?php
-	echo 'Произведение: '; echo author[1];
-	?>
-	</pre>
-	<pre>
-	<?php
-	echo 'Год издания '; echo author[2];
-	?>
-	</pre>
+
 
 </body>
 </html>
