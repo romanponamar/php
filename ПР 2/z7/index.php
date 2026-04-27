@@ -49,25 +49,23 @@
 
 	<?php
 
-	const author = 'М.А. Булгаков';
-	const title = 'Мастер и Маргарита';
-	const year =	'1966';
+	const author = ['М.А. Булгаков','Мастер и Маргарита','1966'];
 
 	?>
 	
 	<pre>
 	<?php
-	echo 'Автор: '; echo author;
+	echo 'Автор: '; echo author[0];
 	?>
 	</pre>
 	<pre>
 	<?php
-	echo 'Произведение: '; echo title;
+	echo 'Произведение: '; echo author[1];
 	?>
 	</pre>
 	<pre>
 	<?php
-	echo 'Год издания '; echo year;
+	echo 'Год издания '; echo author[2];
 	?>
 	</pre>
 
